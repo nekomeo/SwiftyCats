@@ -13,6 +13,7 @@
 		6A6E0E601F48F526004CD5A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A6E0E5F1F48F526004CD5A3 /* Assets.xcassets */; };
 		6A6E0E631F48F526004CD5A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A6E0E611F48F526004CD5A3 /* LaunchScreen.storyboard */; };
 		6A6E0E6B1F48F86D004CD5A3 /* Flickr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E0E6A1F48F86D004CD5A3 /* Flickr.swift */; };
+		6A6E0E6D1F48F939004CD5A3 /* FlickrCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E0E6C1F48F939004CD5A3 /* FlickrCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6A6E0E621F48F526004CD5A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A6E0E641F48F526004CD5A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A6E0E6A1F48F86D004CD5A3 /* Flickr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flickr.swift; sourceTree = "<group>"; };
+		6A6E0E6C1F48F939004CD5A3 /* FlickrCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlickrCollectionViewCell.swift; path = ../FlickrCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				6A6E0E581F48F526004CD5A3 /* AppDelegate.swift */,
 				6A6E0E5A1F48F526004CD5A3 /* ViewController.swift */,
 				6A6E0E6A1F48F86D004CD5A3 /* Flickr.swift */,
+				6A6E0E6C1F48F939004CD5A3 /* FlickrCollectionViewCell.swift */,
 				6A6E0E5C1F48F526004CD5A3 /* Main.storyboard */,
 				6A6E0E5F1F48F526004CD5A3 /* Assets.xcassets */,
 				6A6E0E611F48F526004CD5A3 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 				6A6E0E5B1F48F526004CD5A3 /* ViewController.swift in Sources */,
 				6A6E0E6B1F48F86D004CD5A3 /* Flickr.swift in Sources */,
 				6A6E0E591F48F526004CD5A3 /* AppDelegate.swift in Sources */,
+				6A6E0E6D1F48F939004CD5A3 /* FlickrCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +307,7 @@
 				6A6E0E691F48F526004CD5A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
