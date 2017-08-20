@@ -10,11 +10,12 @@ import UIKit
 
 class ViewController: UIViewController, UICollectionViewDataSource
 {
-    var cat = ["1", "2", "3"]
+    @IBOutlet weak var collectionView: UICollectionView!
+    var photoArray = [Photo]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        URLSetup()
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,9 +23,14 @@ class ViewController: UIViewController, UICollectionViewDataSource
         // Dispose of any resources that can be recreated.
     }
     
+    func URLSetup()
+    {
+        
+    }
+    
     public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
     {
-        return cat.count
+        return photoArray.count
     }
     
     
