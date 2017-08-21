@@ -10,19 +10,21 @@ import UIKit
 
 class Photo: NSObject
 {
-    var photoServer : String
     var photoFarm : String
     var photoID : String
+    var photoServer : String
     var photoSecret : String
     var photoTitle : String
     
-    init(farm : String, server : String, photoID : String, secret : String, title : String)
+    init(fromDictionary dictionary : [String: String])
     {
-        self.photoFarm = farm
-        self.photoServer = server
-        self.photoID = photoID
-        self.photoSecret = secret
-        self.photoTitle = title
+        self.photoFarm = dictionary["farm"]!
+        self.photoID = dictionary["id"]!
+        self.photoServer = dictionary["server"]!
+        self.photoSecret = dictionary["secret"]!
+        self.photoTitle = dictionary["title"]!
+        
+        
     }
     
 }
